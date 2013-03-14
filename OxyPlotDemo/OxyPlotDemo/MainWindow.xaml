@@ -1,0 +1,10 @@
+﻿<Window x:Class="OxyPlotDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="http://oxyplot.codeplex.com"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <oxy:Plot x:Name="Plot1" Title="A Graph" Model="{Binding PlotModel}" Margin="10" Grid.Row="1">
+        </oxy:Plot>
+    </Grid>
+</Window>
